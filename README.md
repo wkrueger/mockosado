@@ -35,7 +35,8 @@ const createCow = loadModule(cowToken)
 - Creating a mock implementation for cow
 
 ```ts
-import { cowToken, Scopes, registerModule } from "./cow"
+import { cowToken } from "./cow"
+import { Scopes, registerModule, loadModule } from "mockosado"
 
 const createCow = loadModule(cowToken, Scopes.execution /* optional */)
 
