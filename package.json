@@ -1,0 +1,15 @@
+{
+  "name": "mockosado",
+  "version": "1.0.0",
+  "description": "Dependency interceptor.",
+  "main": "lib/index.js",
+  "repository": "git@github.com:wkrueger/mockosado.git",
+  "author": "Willian <wkrueger128@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
