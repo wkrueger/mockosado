@@ -1,0 +1,2 @@
+# mockosado
+Dependency interceptor.
